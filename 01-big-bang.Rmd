@@ -1,2 +1,83 @@
-# Overview 📃{#overview}
+```{r, echo=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color, 
+      x)
+  } else x
+}
+```
 
+# The Big Bang and the Observable Universe: Overview 📃{#overview}
+
+## The Big Cosmic Questions 🧐
+
+Cosmology is the study of the origin, nature and evolution of our universe. It's practitioners strive to describe cosmic history in quantitative detail, using the language of modern physics and abstract mathematics. 
+
+But if you think about it and think real hard, there are only a few fundamental questions in cosmology:
+
+* Is the universe finite or infinite ?
+* Has it existed forever ? If not, when and how did it come into being ?
+* Will it ever end ?
+* Where do Humans fit into the grand scheme of things ?
+
+Religion and Science both aim to answer these questions. According to Chinese creation myths the universe exists because a giant broke open a black egg, according the christian creation story it was Adam and Eve. 
+
+For a long time it was assumed that we would never know the answers to the "big" questions and thus, cosmologists focused on the part of the universe that was directly observable and left the great mysteries to the philosophers 🤵🏻 and theologians ⛪.
+
+## The Origins of Scientific Cosmology 🌌
+
+Some say the idea that the universe can be rationally understood is at the foundation of all scientific knowledge. 
+
+The history is quite exciting. 
+
+* At one side we had legends like `r colorize("Thales", "#FFFF00")`, `r colorize("Democritus", "#FFFF00")` and `r colorize("Epicurus", "#FFFF00")` who believed that matter (and living beings along with it) were made up of Fundamental particles and that we evolved due to random rearrangements without any set reason. 
+
+* Then we had `r colorize("Pythagoras", "#FFFF00")` who was the first one to call the heavens as `r colorize("cosmos", "#33CCFF")`, which mean `r colorize("order", "#33CCFF")` 🤯!!. He suggested that the Earth, the Sun, and the other celestial bodies are perfect spheres and move in perfect circles around a central fire, which cannot be seen by human eyes. 
+
+* `r colorize("Plato", "#FFFF00")` and `r colorize("Aristotle", "#FFFF00")` proposed more elaborate versions, saying that the earth was at the center, with the other bodies revolving around it about a center. Keep in mind this was a finite universe. 
+
+* `r colorize("Claudius Ptolemy", "#FFFF00")` gave his own model (The Geocentric model) using the concept of nested epicycles and retrogrades to account for the backward and forward motion of planets in the night sky. This model was followed for almost 1500 years 🤯!!!
+
+
+```{r, echo=FALSE, fig.align='center', fig.cap="Ptolemaic Model"}
+knitr::include_graphics("assets/images/Ptolemaic_elements.svg")
+```
+
+* Then around 16th century, `r colorize("Nicolaus Copernicus", "#FFFF00")` gave the heliocentric model which kept the Sun at the center and had the Earth and other celestial revolve in orbits. ( This idea was not taken well by the religious folk ) 
+
+
+```{r, echo=FALSE, fig.align="center", fig.cap = "Copernecian Model"}
+knitr::include_graphics("assets/images/Copernican_heliocentrism_diagram-2.jpg")
+```
+
+* The next breakthrough happened by the hands of `r colorize("Johannes Kepler", "#FFFF00")` under the mentorship of `r colorize("Tacho Brahe", "#FFFF00")` when he introduced the concept of elliptical orbits. 
+* Then ofcourse came `r colorize("Issac Newton", "#FFFF00")` who showed that we could derive the elliptical orbits of planets from his three laws of motion and the law of universal gravitation.
+
+## Present Time ⌚️
+
+Despite it's seemingly long history, Cosmology is a relatively young field. Most of the knowledge that we have comes from the data recorded in the last 100 years. 
+
+* We discovered that our Sun belongs to a huge disk-like conglomeration of about 3 hundered billion stars 🤯!!!, known as the Milky Way galaxy 🌌. 
+
+* Not only is the Sun merely one out of a hundred billion, our galaxy is one out of hundred billion other galaxies which are scattered throughout the observable universe. 
+
+* `r colorize("Edwin Hubble", "#FFFF00")` in 1929 showed that these all these galaxies aren't really suspended. Rather, they are rushing away from each other at extremely high speeds. The Universe is expanding 🤯!!!.
+
+* Now, if we extrapolate this expansion, backwards in time, we come to realize that the universe was once much denser and hotter. This is what's called the `r colorize("Big Bang Theory", "#33CCFF")`. At the time of "creation", all of space was filled with an extremely hot, dense condensed but still expaning "fireball ☄️" (of sorts). As it continued to expand, it eventually cooled leading to the formation of atoms, nuclei, stars, galaxies and then us !
+
+* In 1965 `r colorize("Arno Penzias", "#FFFF00")` and `r colorize("Robert Wilson", "#FFFF00")` discovered a remnant of this primordial fireball ☄️. They found that the entire universe if bathed in a sea of low-intensity micro-waves, known as the 
+`r colorize("Cosmic Microwave Background Radation (CMB)", "#33CCFF")`. Thus, becoming a smoking gun 🔫 proof of big bang theory. 
+
+* The big bang theory, now has it's roots in `r colorize("Albert Einstein's ", "#FFFF00")`, `r colorize("General Theory of Relativity", "#33CCFF")`. 
+
+* `r colorize("George Gamow", "#FFFF00")` introduce the idea of the early universe being hot. He argued that the hot primordial fireball was the furnace where all the present day chemical elements were forged. Gamow, along with `r colorize("Raplh Adler", "#FFFF00")` and `r colorize("Robert Herman", "#FFFF00")` successfully calculated the abundance of hydrogen and helium. 
+
+* In the 1980s and 90s, with the rise of astronomical data, the field emerged. Radio and optical astronomy flourished with computerized galaxy surveys and instruments like the `r colorize(" Very Large Array (VLA)", "#33CCFF")` and the satellite `r colorize("Cosmic Background Explorer (COBE)", "#33CCFF")`.
+
+* The `r colorize("Hubble Space Telescope", "#33CCFF")` has captured images of galaxies so far away that it took much of the age of the universe for their light to reach us.
+
+* The turn of the century saw the launch of the `r colorize("Williamson Microwave Anisotropy Probe(WMAP)", "#33CCFF")` satellite. 
+
+We are truly living in the golden age of cosmology and astronomy. It may seem like observations have proven most questions, but the intriguing and in my opinion the most important questions, still remain. We've only just begun our journey from the microcosm to the macrocosm.
