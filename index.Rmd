@@ -1,7 +1,5 @@
 --- 
 title: "Astronomy Notes 🌌"
-author: "Saurav Maheshakr"
-date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -10,4 +8,4 @@ link-citations: yes
 description: "My collection of notes on Astronomy 🔭 and Cosmology 🌌"
 ---
 
-# Introduction to Cosmology 🌌{#intro}
+# Introduction to Cosmology 🌌{#introduction}
