@@ -1,3 +1,5 @@
+# (PART) The Big Bang and the Observable Universe {-} 
+
 ```{r, echo=FALSE}
 colorize <- function(x, color) {
   if (knitr::is_latex_output()) {
@@ -9,7 +11,8 @@ colorize <- function(x, color) {
 }
 ```
 
-# The Big Bang and the Observable Universe: Overview 📃{#overview}
+
+# Overview 📃{#overview}
 
 ## The Big Cosmic Questions 🧐
 
