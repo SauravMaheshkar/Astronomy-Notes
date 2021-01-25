@@ -14,9 +14,11 @@ colorize <- function(x, color) {
 
 # Overview 📃{#overview}
 
+Cosmology is the study of the origin, nature and evolution of our universe. 
+
 ## The Big Cosmic Questions 🧐
 
-Cosmology is the study of the origin, nature and evolution of our universe. It's practitioners strive to describe cosmic history in quantitative detail, using the language of modern physics and abstract mathematics. 
+Cosmological practitioners strive to describe cosmic history in quantitative detail, using the language of modern physics and abstract mathematics. 
 
 But if you think about it and think real hard, there are only a few fundamental questions in cosmology:
 
@@ -84,3 +86,95 @@ Despite it's seemingly long history, Cosmology is a relatively young field. Most
 * The turn of the century saw the launch of the `r colorize("Williamson Microwave Anisotropy Probe(WMAP)", "#33CCFF")` satellite. 
 
 We are truly living in the golden age of cosmology and astronomy. It may seem like observations have proven most questions, but the intriguing and in my opinion the most important questions, still remain. We've only just begun our journey from the microcosm to the macrocosm.
+
+# Newton's World 🌎
+
+In the remarkable book `r colorize("Principia", "#33CCFF")`, Newton formulated the general laws of motion and the law of universal gravitation. He then went on to apply these laws to explain the motion of celestial bodies, projectiles and oceanic tides. 
+
+## Newton's Laws of Motion 3️⃣
+
+Newton's First 1️⃣ law states that a body that is at rest will stay at rest, and a body that is moving with a constant velocity will maintain that constant velocity, unless it is acted upon by a force. This Law also goes by the name of `r colorize("The Law of Inertia", "#33CCFF")`. 
+
+Newton's Second 2️⃣law tells us that if a force is applied to a body, the body accelerates - meaning its velocity changes. The law can be stated mathematically as:
+
+$$ \vec{a} = \frac{\vec{F}}{m} $$
+where, $\vec{a}$ is the acceleration of the body, $m$ is its mass, and $\vec{F}$ is the applied force. The acceleration is defined as the rate at which the velocity changes.
+
+Newton's Third 3️⃣ Law states that every action has a equal and opposite reaction.
+
+## Newtonian Gravity 🍎
+
+Newton's law of gravity states that any two objects are attracted to one another with a force: 
+
+$$F = \frac{GMm}{r^2}$$
+
+where $M$ and $m$ are the masses of the two objects and $r$ is the distance between them. The force acting on mass $m$ is directed towards the mass $M$ and vice-versa. This also introduced Newton's gravitational constant $G$, 
+
+$$ G = 6.67 \, \times \, 10^{-11} \, Nm^2/kg^2 $$
+Newton's law of gravity is an "inverse square law", because the gravitational force is inversely proportional to the square of the distance between the two objects.
+
+The masses are assumed to be "point masses"; i.e., we assume that their sizes can be neglected, so we can imagine that each mass is located at a point.
+
+Furthermore, Newton proved the `r colorize("Shell Theorem", "#33CCFF")`, which states two important facts: 
+
+* A uniform spherical shell of matter attracts an outside object as if all of the shell's mass were concentrated at its center. This applies to any uniform spherically symmetric object, like a solid sphere, since the object can be thought of as consisting of shells. 
+
+* The gravitational force exerted on an object that is inside a uniform spherical shell of matter is zero.
+
+## Acceleration of Free Fall
+
+In everyday terms we often confuse weight and mass. When we get on a scale, we measure our weight — this is the force of gravity which pulls us towards the center of the Earth. For a small object of mass $m$ near the surface of the Earth, the weight is given by
+
+$$ F = \frac{GM_Em}{r^{2}_{E}} $$
+
+where $M_E = 6 \, \times \, 10^{24} \, kg$ is the Earth's mass, and $r_E = 6.4 \, \times \, 10^6 m$ is its radius. 
+
+Now let's consider what happens if we have an object of mass $m$, close to the surface of the Earth, and we let it go. It will fall with acceleration $a = F/m$, which becomes
+
+$$ a = \frac{GM_Em}{r^{2}_{E}} \frac{1}{m} = \frac{GM_E}{r^{2}_{E}} $$
+This does not depend on the mass $m$, which means that all bodies close to the surface of the Earth fall with the same acceleration, independent of their mass (as long as we ignore air resistance).
+
+## Circular Motion and Planetary Orbits
+
+```{r, echo=FALSE, fig.align="center", fig.cap = "Uniform Circular Motion"}
+knitr::include_graphics("assets/images/Uniform_circular_motion.svg")
+```
+
+For uniform circular motion, the magnitude of the acceleration is: 
+
+$$ a = \frac{v^2}{r} $$
+where $v$ is the speed of the object undergoing the motion and $r$ is the radius of the circle. The direction of the acceleration is radially inward, towards the center of the circle and is called the `r colorize("centripetal acceleration", "#33CCFF")`.
+
+Newton showed in his Principia that the inverse square law implies that celestial bodies like planets and comets should move in elliptical orbits, in agreement with Kepler. While comets often move in highly eccentric orbits, for planets the two focal points of the ellipse almost coincide, so the orbit is approximately a circle. If the radius of the orbit is $r$, its circumference is $2πr$, and the velocity of the planet is
+
+$$ v = \frac{2πr}{T} $$
+where $T$ is the time it takes to complete one revolution.
+
+## Newtonian Cosmology
+
+Newton’s cosmological ideas developed during a correspondence with the Cambridge theologian `r colorize("Richard Bentley", "#33CCFF")`. Bentley was preparing to give public lectures titled “A confutation of atheism” and wrote to Newton asking him how his theory of gravity applied to the universe as a whole. During the winter of 1692–93, Newton sent a series of four letters to Bentley, in which he described a universe that is infinite and static: “The fixed stars, being equally spread out in all points of the heavens, cancel out their mutual pulls by opposite attractions.” 
+
+Newton was acutely aware, there is a problem with this line of reasoning. If a region of the universe has a slight excess of matter, then that region will begin to attract material from its surroundings. Te region will become denser, and it will attract more and more matter. Thus a un- form distribution of stars is unstable due to gravity: it would be destroyed by an arbitrarily small perturbation. Newton’s solution was to invoke a super-natural intervention, stating “...this frame of things could not always subsist without a divine power to conserve it.”.
+
+## Olbers' Paradox
+
+What do you think the Sun would look like if it were at twice its present
+distance from the Earth??
+
+* The total brightness of the Sun would be four times smaller because the brightness of an object decreases as the inverse square of the distance to the object. 
+
+* The area of the Sun’s disc on the sky would also be four times smaller. This means that the brightness per unit area (called the surface brightness) remains the same. 
+
+* So what? Well, in an infinite universe that is uniformly sprinkled with stars, every line of sight should eventually hit a star, and each star should have roughly the same surface brightness as the Sun. Thus implies that the whole sky should be glowing with the same intensity as the Sun’s surface.
+
+This is known as the `r colorize("Olbers' Paradox", "#33CCFF")` or the `r colorize("Dark Night Sky Paradox", "#33CCFF")`.
+
+While Newton showed that his universal law of gravity could explain a vast scope of natural phenomena, he was at a loss to explain **how it could be that the force of gravity acts instantaneously, between every pair of particles, across the vastness of space.**
+
+> At the end of his Principia, Newton conceded: “Thus far I have explained the phenomena of the heavens and our sea by the force of gravity, but I have not yet assigned a cause to gravity.... I have not as yet been able to deduce from phenomena
+the reason for these properties of gravity and I do not feign hypotheses,” but he then
+went on to declare “And it is enough that gravity really exists and acts according
+to the laws that we have set forth and is sufcient to explain all the motions of the
+heavenly bodies and of our sea.”
+
+Despite of **Olbers' Paradox** and the problems of **gravitational instability**, Newtonian cosmology held sway for about 200 hundred years - until ofc Einstein's general theory of relativity absolutely revolutionized 🤯 🤯 our understanding of gravity once again. 

@@ -1,7 +1,15 @@
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
+fig:unnamed-chunk-4
 introduction
 overview
 the-big-cosmic-questions
 the-origins-of-scientific-cosmology
 present-time-️
+newtons-world
+newtons-laws-of-motion-3️⃣
+newtonian-gravity
+acceleration-of-free-fall
+circular-motion-and-planetary-orbits
+newtonian-cosmology
+olbers-paradox
