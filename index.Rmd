@@ -6,6 +6,8 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "My collection of notes on Astronomy 🔭 and Cosmology 🌌"
+favicon: assets/images/favicon.ico
+github-repo: SauravMaheshkar/Astronomy-Notes
 ---
 
 # Introduction to Cosmology 🌌{#introduction}
