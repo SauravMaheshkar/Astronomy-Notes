@@ -178,3 +178,168 @@ to the laws that we have set forth and is sufcient to explain all the motions of
 heavenly bodies and of our sea.”
 
 Despite of **Olbers' Paradox** and the problems of **gravitational instability**, Newtonian cosmology held sway for about 200 hundred years - until ofc Einstein's general theory of relativity absolutely revolutionized 🤯 🤯 our understanding of gravity once again. 
+
+# Special Relativity 
+
+## The Principle of Relativity
+
+Although nowadays, the word "relativity" is synonymous with Albert Einstein, `r colorize("Galileo Galilei", "#33CCFF")` was actually the first scientist to formulate what we now call "**the principle of relativity**". 
+
+In his famous `r colorize("Dialogue (1632)", "#33CCFF")`, Galileo suggested a mind experiment, that they should shut themselves up in the cabin of a ship, below the decks, so that they could see what was going on outside. He argued that they would not be able to tell whether the ship was stationary or moving, as long as the motion was uniform and in the same direction, without any turns. The choice of ship 🚢 was arbitrary, try imagining the same but in a train or a airplane. When the motion is smooth enough, and if you have closed your eyes, you would've noticed that you cannot tell whether you're moving or not. 
+
+> Even rn, we are moving  with the Earth around the Sun at a speed of 30 km/s, and with the entire Solar System around the galactic center at about 230 km/s. Even these velocities have no effect whatsoever on our daily tasks.
+
+Towards the end of the 19th century, a new problem emerged. The speed of light was measured to be around $300,000 \, km/s$. The problem was **speed with respect to what ??** 🧐. 
+
+When we say that the speed of sound is around $300 \, m/s$, it is understood that the sound propagates through the air to the observer from its source. Thus an observer, who is at rest with respect to the air, will measure this value for the speed of sound. 
+
+Scientists assumed that for light this would be pretty much similar. Back then people believed that light propagated through something referred to as `r colorize("Ether", "#33CCFF")`. If we are at rest with respect to the ether, we should find that light propagates in all directions at the same speed of 300,000 km/s. But what if we are moving through the ether at a speed of, say, 100,000 km/s? Then a light pulse propagating in the same direction will only move at 200,000 km/s relative to us, while a pulse propagating in the opposite direction will speed away from us at 400,000 km/s.The speed of light in the directions orthogonal to our motion would remain unchanged at 300,000 km/s. Thus, in a space filled with ether, inertial observers who move at different speeds will no longer be equivalent. They will observe that the speed of light is direction-dependent, and they can use this to deduce their own speed with respect to the ether.
+
+An ingenious apparatus for measuring the difference between the speeds of light in two orthogonal directions was designed by `r colorize("Albert Michelson ", "#33CCFF")` and `r colorize("Edward Morley", "#33CCFF")`. They knew that if our speed through the ether was as high as 100,000 km/s, then the direction-dependence of the speed of light would have been noticed in earlier experiments. Thus, Michelson and Morley expected to measure a much smaller number—which required a much higher accuracy.
+
+The result was startling 🤯🤯. They detected no variation in the speed of light in different directions. To ensure that the Earth's motion around the Sun at the time of the experiment was not accidentally compensated by the motion of the Solar System, they repeated the same experiment six months later. But again, no effect was found. 
+
+The most logical and rather obvious conclusion suggested that the speed of light does not depend on the speed of the observer who measures it. This conflicted with **Newtonian Physics** and **Common Sense**. Thus, as most physicists just ignored the results. 
+
+Well, the paradox was solved in 1905 by a 26 year old patent clerk from Bern. His name was Albert Einstein and He threw Newtonian Physics and Ether out of the window. 
+
+## The Speed of Light and Electromagnetism
+
+The two famous predictions from Maxwell's theory of electromagnetism are:-
+
+1. Oscillating electric and magnetic fields propagate through space as electromagnetic waves
+
+2. The speed of an electromagnetic wave is 300,000 km/s.
+
+Maxwell ofc realized this speed as the speed of light. He thus concluded that light must be a electromagnetic wave.
+
+The theory of light as an electromagnetic wave is a pillar of classical physics. However, in some circumstances, such as when light interacts with atoms, it is necessary to adopt the view of quantum physics. In this modern picture, we see a light wave is thought to be composed of huge number of photons that travel together. 
+
+## Einstein's Postulates
+
+In the awesome 1905 paper `r colorize("On the Electrodynamics of Moving Bodies", "#33CCFF")`, Einstein gave the following assumptions:
+
+1. The laws of physics are the same for all inertial observers. This Galileo's **principle of relativity**.
+
+2. The speed of light measured by all inertial observers is the same.
+
+The second postulate implies that there is no ether. 
+
+Using just these 2 assumptions, Einstein led us to the:
+
+* `r colorize("Relativity of Simultaneity", "#33CCFF")`.
+
+* `r colorize("Time Dilation", "#33CCFF")`.
+
+* `r colorize("Length Contraction", "#33CCFF")`.
+
+* `r colorize("Mass-Energy Equivalence", "#33CCFF")`.
+
+## Simultaneity
+
+Now, let's perform the famous Einstein Thought Experiment.
+
+Suppose Jane is standing in the middle of a moving train car, holding the switch of an overhead light bulb, which is initially turned of. Now she turns it on, and light propagates towards the front and back walls of the car. Since she is in the middle, light reaches the two walls at the same time. At least from her point of view. Now suppose Ben is observing this experiment standing on the platform. He sees Jane turn on the bulb, and light propagates in both directions at the same speed, which is of course the speed of light. But the back wall of the car is moving toward the approaching beam of light, while the front wall is moving away from the beam, so Ben will see light reach the back wall before it reaches the front wall.
+
+----
+**CONCLUSION: The simultaneity of events has no absolute meaning; it depends on the state of motion of the observer.**
+----
+
+## Time Dilation
+
+```{r, echo=FALSE, fig.align="center", fig.cap = "Time Dilation"}
+knitr::include_graphics("assets/images/Time-dilation-002-mod.svg")
+```
+
+Now, let's add on to the thought experiment by assuming that Jane (in the train with a speed $v$) is equipped with a light source, located at the floor of the her train car, and a mirror at a distance $L$ directly above the source. By simply pushing a button, a light pulse is sent from the source to the mirror and back again. This round trip would take time $t_0 = 2L/c$ (**as measured by Jane**).
+
+Now from Ben's perspective, the light pulse travels along a diagonal path $D$ which is longer than $L$ and the time taken will be $t = 2D/c$ for the pulse to complete the trip. Thus, the time interval between the same events is different when measured by different observers. 
+
+In particular, they are related by the formula:
+
+$$ t = \gamma t_0$$
+
+The relativistic factor $\gamma$ (also known as the `r colorize("Lorentz factor", "#33CCFF")` is defined as:
+
+$$ \gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$$
+
+This factor equals 1 when the relative velocity between two frames is zero.
+
+```{r, echo=FALSE, fig.align="center", fig.cap = "Lorentz factor as a function of velocity"}
+knitr::include_graphics("assets/images/Time_dilation.svg")
+```
+
+Consider this plot, as Jane turns on the engines and reverses the velocity of her train/ship, she is no longer an inertial observer, and thus the laws of special relativity do not apply in her reference frame.
+
+## Length Contraction
+
+Now that we know that time and simultaneity are relative, it's pretty easy to extend this logic to space as well. 
+
+If $L_0$ is the length of an object at rest, and if the object then moves past an observer at speed $v$, the observer will measure the length of the object to be 
+
+$$ L = L_0 / \gamma$$
+
+## Mass-Energy Equivalence 
+
+After two years of publishing his breakthrough paper, he reached another famous equation $E = mc^2$.  
+
+We can also extend this into Einstein's relativistic energy equation as:
+
+$$ E = mc^2 = \gamma m_0 c^2$$
+
+Also, note that the energy for an object at rest does not vanish - it is the rest mass $m_0$ (times $c^2$). 
+
+Another important feature of the relativistic energy is that it tends to infinity when the velocity of an object approaches the speed of light. It takes increasingly large amounts of energy to bring the speed of the object closer and closer to the speed of light, but the limit $v = c$ can never be reached. Thus, the speed of light is the absolute speed limit in the Universe
+
+## Space ➕ Time  ＝ SpaceTime
+
+It's pretty easy to deduce that time is the 4th dimension. For instance, when we want to indicate a location in space we also add Time in it. For example:
+
+> "Let's meet at Starbucks"
+
+But when?? The complete statement should be: 
+
+> "Let's meet at Starbucks tomorrow at 6 PM"
+
+When we combine such notions, we speak of **spacetime**. This is not acceptable in Newtonian Physics as space and time are completely independent. But as per Einstein's theory it's completely natural, infact space and time are routinely depicted together in spacetime diagrams. 
+
+Let's explore this by drawing an analogy with Euclidean geometry on a plane. Suppose we have two points on a plane that are connected by a straight line segment. We can characterize this segment by its projection on two orthogonal axes, $x$ and $y$. The squared length of the segment remains equal irrespective of the axes. (Because of Pythagoras Theorem). 
+
+Now compare this situation with Einstein's theory. Given two events, their separations in space and time will differ for different observers. But this is only because the events are being projected on different space and time axes. Einstein's former mathematics professor Minowski realized that all observers will agree on a specific quantity called the `r colorize("spacetime interval", "#33CCFF")`
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/spacetimeinterval.png")
+```
+
+Consider two events A and B as per the fig. The square of the spacetime interval can then be expressed as:
+
+$$ (\Delta s)^2  = (c \Delta t)^2 - (\Delta x)^2$$
+
+Since all inertial observers will agree on the value of the spacetime interval, we say that the spacetime interval is `r colorize("invariant", "#33CCFF")`
+
+## Causality in Spacetime
+
+With space and time intervals varying from one observer to the next, it's often easy to feel that physical reality is slipping away. Especially when you start thinking about the relation between cause and effect. 
+
+Let's assume that someone jumps at some time and place (Event A). Light propagates outwards along $45^o$ lines. And as matter moves slower than light, the matter is confined to lie between the shaded region.
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/spacetime-1.png")
+```
+
+Now, we can conclude that all observers will agree that all events in the shaded region are in the future of A. (Thus, it's called the `r colorize("absolute future", "#33CCFF")`). 
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/spacetime-2.png")
+```
+
+Now, let's think about all the events that can influence A. These are the events lying in the region `r colorize("absolute past", "#33CCFF")`. Also, the arbitrary event B can neither influence, nor be influenced by event A.
+
+For events in the absolute past of A, all observers will agree that they occurred earlier than A. However, for events like B that are not in the absolute future or past of A, observers will disagree: some of them will find that B is prior to A; others will find that it is later; and there will be some who will find that both events occurred at the same time.
+
+Thus, we can conclude that the time ordering of events can be reversed by going to another frame of reference only if the events are not causally related. Now, try imagining the same diagrams but in 3 dimensions. Then these regions would be converted into conical surfaces called `r colorize("light cones", "#33CCFF")`. 
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/spacetime-3.png")
+```
+

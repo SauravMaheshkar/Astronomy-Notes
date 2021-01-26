@@ -1,6 +1,8 @@
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
 fig:unnamed-chunk-4
+fig:unnamed-chunk-5
+fig:unnamed-chunk-6
 introduction
 overview
 the-big-cosmic-questions
@@ -13,3 +15,13 @@ acceleration-of-free-fall
 circular-motion-and-planetary-orbits
 newtonian-cosmology
 olbers-paradox
+special-relativity
+the-principle-of-relativity
+the-speed-of-light-and-electromagnetism
+einsteins-postulates
+simultaneity
+time-dilation
+length-contraction
+mass-energy-equivalence
+space-time-spacetime
+causality-in-spacetime
