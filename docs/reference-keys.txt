@@ -3,7 +3,13 @@ fig:unnamed-chunk-3
 fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
-introduction
+intro
+intro-astroinf
+the-revolution
+whats-the-vision-for-astroinformatics
+role-of-machine-learning-in-cosmology
+recent-success-in-cosmology
+possible-challenges
 overview
 the-big-cosmic-questions
 the-origins-of-scientific-cosmology

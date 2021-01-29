@@ -10,4 +10,67 @@ favicon: assets/images/favicon.ico
 github-repo: SauravMaheshkar/Astronomy-Notes
 ---
 
-# Introduction to Cosmology 🌌{#introduction}
+# Basic Introduction {#intro}
+
+## Introduction to Astroinformatics 🌌{#intro-astroinf}
+
+Data volumes from multiple sky surveys have grown from mere gigabytes to terabytes in the past decade alone, and will probably grow into hundreds of Petabytes in the coming decade. This near exponential growth enables and challenges effective research in the field of astronomy. Recently, we've seen more people adopting a data-driven revolution in astronomical research. 
+
+Some say that for astronomy to cope with such advancements there is a need of information science specialists. Thus, promoting the growth of a new field **Astroinformatics**. It includes a set of naturally-related specialties such as data organization, description, classification taxonomies, concept ontologies, mining and of course machine learning and astrostatistics.
+
+> **Astroninformatics is the formalization of data-intensive astronomy and astrophysics for research and education**
+
+### The Revolution
+
+The development of models to describe and understand scientific phenomena has historically proceeded at a pace driven by new data. The more data we have, the more we are driven to enhance / change our existing models. The acquisition of data in all scientific disciplines is rapidly accelerating and causing a nearly insurmountable data avalanche. Consequently, as growth in data volume accelerates, especially in the natural sciences, we as a community will fall further and further behind in our ability to access, analyze, assimilate, and assemble knowledge from our collections. 
+
+In astronomy in particular rapid advances in areas such as telescopes, detectors and computation have continued unabated. With this accelerating advance in data generation capabilities over the coming years, we will require an increasingly skilled workforce in the areas of computational and data sciences in order to confront these challenges. Such skills are more critical than ever since modern science, which has always been data-driven, will become even more data-intensive in the coming decade. 
+
+> "There is a growing  gap between the generation of data and our understanding of it"
+
+For instance in survey astronomy, the **LSST (Large Synoptic Survey Telescope)** will produce 3-Gigapixel image of the sky every 20 seconds, which corresponds to nearly 30 TB of data **daily** for 10 years. Even NASA acknowledges that previous approaches to scientific data management and analysis will simply not work. 
+
+Within the scientific domain, data science is becoming a recognized academic discipline. Consequently, astronomy and other scientific disciplines are developing sub-disciplines that are information-rich and data-intensive to such an extent that these are now becoming (or have already become) recognized stand-alone research disciplines and full fledged academic programmes on their own merits. 
+
+### What's the Vision for Astroinformatics 🌌
+
+Astroinformatics is often called as **Discovery Informatics** for astronomy.
+
+> "Discovery Informatics is the study and practice of employing the full spectrum of computing and analytical science and technology to the singular pursuit of discovering new information by identifying and validation patterns in data"
+
+An informatics paradigm is needed within any data-intensive scientific discipline to make the best use of its rich data collections for scientific discovery. Discovery informatics thereby activates data integration and fusion across multiple heterogeneous data collections to enable scientific knowledge discovery and decision support. The experience of the other data-intensive sciences reveals that is imperative for the successful pursuit of data-intensive astronomy that astronomers work with computer scientists to design, develop, and deploy a similar set of common tools, data models, and ontologies. 
+
+The database research community is responding to the data avalanche in astronomy, geosciences, and other disciplines. Researchers have started an international effort to create an open-source database technology called **SciDB** that is designed fundamentally to address extreme-scale science. SciDB's design is inspired primarily by the needs of the LSST, with guidance from other disciplines. 
+
+### Role of Machine Learning in Cosmology
+
+In recent years, machine learning (ML) methods have remarkably improved how cosmologists can interpret data. There are also new challenges for adopting ML methodologies and understanding the results. ML could possibly transform cosmology, but this transformation will require the astronomy community to both foster and promote interdisciplinary research endeavors.
+
+Nowadays Machine Learning has permeated our daily lives. The last decade has also seen a remarkable rise in interdisciplinary machine learning (ML) based astronomy research, offering enticing improvements in the ways in we can interpret data. Machine learning research explores the development and application of algorithms that find patterns in data. In the context of astronomy, ML algorithms can be used to address a broad range of tasks including (but not limited to):-
+
+* Describing complicated relationships
+* Identifying data clusters and data outliers
+* Reducing Scatter by using complex or subtle signals
+* Generating Simulated Data
+* Classifying observations
+* Addressing Sparse Data
+* Exploring data sets to understand the physical underpinning
+
+ Machine learning has already gained a lot of traction within the astronomy community, and compelling successful applications of ML indicate that it has the potential to be transformative.
+ 
+### Recent Success in Cosmology
+
+1. ML has shown to significantly reduce scatter in cluster mass estimates compared to more traditional methods.
+
+2. ML has been used with weak lensing maps to discriminate between standard and modified gravity models that generate statistically similar observations. ML has also shown to tighten parameter constraints by harnessing non-Gaussianities in these maps.
+
+3. ML has shown to provide competitive methods for signal to noise extraction of projected gravitation potentials from Cosmic Microwave background (CMB) experiments.
+
+4. ML models outperform traditional fast analytical approximations for predicting structure formation of the universe by generating full 3D N-body simulations.
+
+## Possible Challenges
+
+A common complaint about ML methods is that they are black boxes that cannot lead to physical understanding. But, there are ways to peer inside this box and to gain understanding. These include the recent developments in the field of interpretability. 
+
+More advanced analyses of cosmological data place stringent requirements on the interpretability of results. This represents a key hurdle for applying ML to cosmology: the assessment of uncertainty and the removal of bias. Integrating traditional statistical methods with modern ML models may provide a solution, but this will require cross-disciplinary collaboration among statisticians,
+ML researchers, and cosmologists.
