@@ -343,3 +343,40 @@ Thus, we can conclude that the time ordering of events can be reversed by going 
 knitr::include_graphics("assets/images/spacetime-3.png")
 ```
 
+# The Fabric of Space and Time
+
+Einstein's special theory of relativity was a great breakthrough in our understanding of the physical world, but it presented a problem ❗️: It was incompatible with Newton's law of gravitation. This inconsistency between the two theories is not difficult to illustrate. Newton's theory states that the force between two bodies is inversely proportional to the square of the distance between the bodies at an `r colorize("instant of time", "#33CCFF")`. But, according to Einstein, the distance (and the notion of "instant of time"), is not the same for different observers. 
+Thus, arises the problem of which distance to use 🤔 🤔??
+
+If Newton's law is valid in the reference frame of some preferred inertial observer, while it is not valid for other inertial observers, then the principle of relativity is violated, because it requires that physical laws should apply equally to all inertial observers. So clearly, either Newton's theory or relativity had to go ... 😱 😱
+
+## Galileo's though Experiment
+
+In his work `r colorize("Dialogue", "#33CCFF")`, Galileo argued that the motion of objects under the action of gravity is independent of their mass, size, or any other intrinsic properties, as long as air resistance and other non-gravitational forces can be neglected. This was contradictory to the accepted **Aristotelian** viewpoint at the time (Heavier objects fall faster).
+
+We know that Galileo experimented with marbles rolling down inclined planes and found that the motion was independent of the mass. He offered a proof on how Aristotle's theory couldn't be right:
+
+> Suppose that indeed a heavy rock falls faster than a light rock. Now, Imagine that they are tied together with a very light string. The slower-moving light rock's motion should make the motion of the heavier rock somewhat slower. But if we view both the rocks as a system, it's combined mass is more than the heavy rock and should therefore fall faster.
+
+This contradiction demonstrated that Aristotle's theory was inconsistent.
+
+**NOTE:** In the absence of forces, an object moves at a constant velocity along a straight line in spacetime, `r colorize("regardless of what the object is made of", "#33CCFF")`. It's as if the object in space and time is a property of spacetime itself. 
+
+Let's take this analogy a bit further. Suppose that instead of a cabin, we lock ourselves in a falling elevator. All objects in the elevator and the elevator itself, will fall at the same rate. We will not be able to feel our weight because the floor itself is falling at the same rate. If we drop an object it will float next to us. The same kind of weightlessness is experienced in spaceships. 
+
+The motion of objects in gravitational fields looks very similar to inertial motion. 
+
+But, there's a important difference. Gravity makes objects accelerate towards the Earth's center, thus their wordlines are no longer straight. 
+
+This led Einstein to conclude that in the presence of gravity, objects still move along the straightest lines in spacetime, `r colorize("but spacetime itself is curved", "#33CCFF")`. The idea is that massive bodies curve spacetime around them. 
+
+For example, the spacetime in the vicinity of the Sun gets
+curved. Thus, the Earth does not move along a straight line at a constant velocity (as it would in the absence of any gravitating bodies), but instead it moves around the Sun. The Earth’s worldline is in fact the straightest line
+in this curved spacetime. (Such lines are also called `r colorize("geodesics", "#33CCFF")`). Note that a geodesic line in spacetime does not necessarily correspond to the straightest trajectory in space. For example, the Earth’s elliptic orbit around the Sun is certainly not the straightest possible path. 
+
+## The Geometry of Space
+
+### Euclidean Geometry
+
+Our intuition about space and geometry is rooted in Euclidean geometry, which very accurately represents the properties of space - atleast on the scales familiar to humans. But let's test the fifth axiom (`r colorize("“Given any straight line, you can draw one and only one straight line parallel to it through any point in the same plane.”", "#33CCFF")`) experimentally. First, we have to decide what we mean by a straight line. For the sake of argument, let's choose light rays to be our standard straight lines. Then imagine shining two beams of light from two projectors onto a distant screen. If Euclid is right, then the distance between the two light spots on the screen should be equal to the distance between the projectors. But imagine that the light spots turn out to be slightly further apart, and that this distance keeps increasing as you move the screen further away. This would mean that the separation between the light beams grows with the distance. If our straight
+lines have this property of somehow “bending away” from one another, then it is not difficult to imagine that they can avoid intersection even if initially they are headed slightly towards each other. If light rays in our world had such properties, then perhaps we would not find Euclid’s ffth axiom so obvious.
