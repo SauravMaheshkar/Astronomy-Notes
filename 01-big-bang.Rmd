@@ -378,5 +378,74 @@ in this curved spacetime. (Such lines are also called `r colorize("geodesics", "
 
 ### Euclidean Geometry
 
-Our intuition about space and geometry is rooted in Euclidean geometry, which very accurately represents the properties of space - atleast on the scales familiar to humans. But let's test the fifth axiom (`r colorize("“Given any straight line, you can draw one and only one straight line parallel to it through any point in the same plane.”", "#33CCFF")`) experimentally. First, we have to decide what we mean by a straight line. For the sake of argument, let's choose light rays to be our standard straight lines. Then imagine shining two beams of light from two projectors onto a distant screen. If Euclid is right, then the distance between the two light spots on the screen should be equal to the distance between the projectors. But imagine that the light spots turn out to be slightly further apart, and that this distance keeps increasing as you move the screen further away. This would mean that the separation between the light beams grows with the distance. If our straight
-lines have this property of somehow “bending away” from one another, then it is not difficult to imagine that they can avoid intersection even if initially they are headed slightly towards each other. If light rays in our world had such properties, then perhaps we would not find Euclid’s ffth axiom so obvious.
+Our intuition about space and geometry is rooted in Euclidean geometry, which very accurately represents the properties of space - atleast on the scales familiar to humans. But let's test the fifth axiom (`r colorize("“Given any straight line, you can draw one and only one straight line parallel to it through any point in the same plane.”", "#33CCFF")`) experimentally. First, we have to decide what we mean by a straight line. For the sake of argument, let's choose light rays to be our standard straight lines. Then imagine shining two beams of light from two projectors onto a distant screen. If Euclid is right, then the distance between the two light spots on the screen should be equal to the distance between the projectors. But imagine that the light spots turn out to be slightly further apart, and that this distance keeps increasing as you move the screen further away. This would mean that the separation between the light beams grows with the distance. If our straight lines have this property of somehow “bending away” from one another, then it is not difficult to imagine that they can avoid intersection even if initially they are headed slightly towards each other. If light rays in our world had such properties, then perhaps we would not find Euclid’s fifth axiom so obvious.
+
+### Non-Euclidean Geometry
+
+The great German mathematician Carl Friedrich Gauss was the first to break away from the Euclidean dogma. In the early 1800s he explored a geometry in which the fifth axiom is replaced with a postulate allowing multiple parallel lines through the same point, and convinced himself that it was free from logical contradictions. He  worked out the properties of various geometrical figures and found that they were in many ways different from those in the familiar Euclidean geometry. 
+
+In particular, the sum of the angles in a triangle was always less than $180^o$. This kind of geometry is now called `r colorize("hyperbolic geometry", "#33CCFF")`.
+
+Hyperbolic geometry was independently discovered in the 1820s by `r colorize("Nikolai Lobachevsky", "#33CCFF")`, a professor of mathematics in the provincial Russian city of Kazan, and a few years later by a Hungarian artillery officer `r colorize("Janos Bolyai", "#33CCFF")`. Hyperbolic geometry is now often called `r colorize("Lobachevsky geometry", "#33CCFF")`.
+
+## Curved Space
+
+Apart from his secret research on hyperbolic geometry, Gauss developed another, completely different approach to the problem. This work was even more important, because of its greater generality. 
+
+### The Curvature of Surfaces
+
+Gauss's key realization was that a surface could be regarded as a two-dimensional space in itself, as if the exterior world were non-existent. The role of a straight line connecting two points in that space is played by the geodesic line, which is the shortest line between two points along the surface. While a triangle on a flat surface has angles which sum to $180^o$, this is not the case for a triangle made of three geodesic lines on a non-flat surface. 
+
+Gauss found that for small triangles the deviation from $180^o$ grows with the area of the triangle and is proportional to a quantity that he called the curvature of the 2D space. The curvature can be positive or negative, depending on whether the sum of the angles is greater or smaller than $180^o$.
+
+A simple prototype of a curved surface is a sphere. The geodesic lines in this case are great circles. For example, meridians and the equatorial circle are geodesics on the globe. Any two great circles necessarily intersect - like all meridians intersect at the North and South poles. This means that parallel lines do not exist on a sphere, and thus Euclid's fifth axiom does not hold. Also, triangles that are constructed from great circle segments, have angles which add to more than $180^o$. Gauss found that the curvature of a sphere is inversely proportional to the square of its radius. As the radius is increased, the curvature gets smaller, and in the limit of infinite radius the curvature vanishes and the inner geometry is Euclidean. In this limit the sphere is indistinguishable from a plane.
+
+A 2D surface of negative curvature can be pictured as a saddle-like surface. The case of a sphere is rather special, because of its high symmetry. It is `r colorize("homogeneous", "#33CCFF")`, which means that no matter where you are on the sphere, it looks the same. It is also `r colorize("isotropic", "#33CCFF")`, which means that from any point on a sphere it looks the same in all directions. 
+
+A homogeneous and isotropic 2D space of negative curvature is called a `r colorize("hyperboloid", "#33CCFF")`, and the inner geometry of that space is the hyperbolic geometry of Gauss and Lobachevsky.
+
+### The Curvature of 3D Space
+
+Of special interest are the homogeneous and isotropic 3D spaces in which all locations are equivalent, and which look the same in all directions. As in the case of two dimensions, there are only three types of such spaces: Euclidean, spherical and hyperbolic. Euclidean (or flat) space is the usual space we are most familiar with. It has zero curvature, and an infinite volume—it goes on and on ad infinitum.
+
+Spherical space (or the 3D sphere) is a three-dimensional analogue of a 2D spherical surface. It is a closed, finite space; its geodesics are circles of length $2πR$, and its volume1 is $2π^2R^3$. The parameter $R$ is called the radius of the 3D sphere. The sum of angles in a triangle in this space is greater than $180^o$. Also, as the radius of curvature R gets very large, the 3D curved space approaches 3D Euclidean space.
+
+A 3D hyperbolic space is a space of constant negative curvature. Its volume is infinite, and the sum of angles in a triangle is less than 180°. The area of a sphere grows faster than $r^2$, so light sources get dimmer with distance even faster than they do in flat space. The 3D hyperbolic geometry is even harder to conceptualize than spherical curved geometry.
+
+## The General Theory of Relativity
+
+It took Einstein five years to leap from Galileo's cure to the idea of curved spacetime. 
+
+He approached his old classmate `r colorize("Marcel Grossmann", "#33CCFF")`, a mathematician and an expert in geometry. After some time in the library, Grossmann reported back with some good news and some bad news. The good news was that the mathematics of curved spaces did exist. It had been developed by `r colorize("Bernhard Riemann", "#33CCFF")`, who extended Gauss's work on the non-Euclidean geometry of curved surfaces to spaces of three and higher dimensions. The bad news was that this mathematics was an impenetrable mess. In the case of a surface, the curvature is characterized by a single number, while in higher dimensions it is described by a multi-component monster called the `r colorize("Riemann Tensor", "#33CCFF")`. 
+
+The equations of the general theory of relativity, relate the `r colorize("geometry of spacetime to the material content of the Universe", "#33CCFF")`. 
+
+$$ R_{\mu \nu} - \frac{1}{2}g_{\mu \nu}R = \frac{8πG}{c^4}T_{\mu \nu} $$
+
+This may look like a single equation, but the indices ${\mu}$ and ${\nu}$ take four possible values. LHS of the equation includes components of the Riemann tensor, which tells us how much the spacetime is curved in different directions. RHS contains Newton's constant $G$ and the so-called stress-energy tensor of matter $T_{\mu \nu}$, whose components include the energy density, the energy flux, and pressure. 
+
+The energy density is essentially the same thing as mass density, while the other quantities have little effect on gravity under normal circumstances. The energy flux is small when the speeds of gravitating bodies are well below the speed of light, and the pressure is normally much smaller than the energy density.
+
+An essential feature of Einstein's theory is that gravitational effects propagate at the speed of light. Thus, the force of gravity is no longer determined by the instantaneous distance between the bodies.
+
+## Predictions and Tests of General Relativity
+
+### Light Deflection and Gravitational Lensing
+
+The first new prediction of general relativity to be tested observationally was the defection of light as it propagates through a curved spacetime region near a massive body. If light from a distant star passes close to the Sun, the star should appear to be in a different position from where it usually is. Einstein proposed that a Solar eclipse would offer the perfect opportunity to view stars that appear close to the Sun. Their positions could then be measured and compared with their known positions when the Sun is not nearby.
+
+In 1919 two British teams led by Arthur Eddington set out to test Einstein’s prediction. Eddington’s announcement to the world that they had indeed measured the bending of starlight in complete agreement with Einstein’s theory, instantaneously turned Einstein into a household name.
+
+A related prediction is that of gravitational lensing: light from a distant source is bent as it passes by a massive object, like a galaxy, resulting in multiple images of the same source. If the lensing galaxy happens to be centered on the line of sight to the source, the images are spread into a circular band known as an `r colorize("Einstein ring", "#33CCFF")`.
+
+### Gravitational Waves
+
+Another key prediction of general relativity is that accelerating massive bodies generate small distortions (or ripples) in the geometry of spacetime, called `r colorize("gravitational waves", "#33CCFF")`, that travel at the speed of light, much like accelerated charges generate electromagnetic waves. Gravitational waves interact very weakly with matter and are therefore extremely hard to detect. Nonetheless, indirect evidence for gravitational waves has been known for some time. General relativity predicts that as two stars orbit one another, they release energy in the form of gravitational waves. 
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/gwave.gif")
+```
+
+This loss of energy causes the stars to spiral in towards one another, which increase their orbital speed, and decreases their orbital period. In 1974, a spiraling binary pair consisting of two neutron stars was detected. Over the last few decades, the orbital period of the pair has changed in the precise way predicted by general relativity. 
+
+In September 2015, gravitational waves were directly detected using both of the `r colorize("Laser Interferometer Gravitational Wave Observatory (LIGO)", "#33CCFF")` detectors located in Livingston, Louisiana, and Hanford, Washington, USA. The LIGO detectors were able to measure the distortion of spacetime caused by gravitational waves that emanated from a coalescing pair of black holes. Scientists deduced that 29 and 36 Solar mass black holes collided to form a larger spinning black hole. The collision occurred about 1.3 billion years ago, lasted for a fraction of a second, and converted about 3 Solar masses of energy into gravitational wave radiation, some of which passed through the Earth. The spatial distortion caused by gravitational waves is almost imperceptibly small: each LIGO instrument has two arms that are about 4 km long, and changes in its length of about one ten thousandth the size of a proton are measurable. It is a huge experimental triumph to be able to measure such a minute change in the apparatus, and to be able to deduce so much about the nature of the system which generated the gravitational radiation.
