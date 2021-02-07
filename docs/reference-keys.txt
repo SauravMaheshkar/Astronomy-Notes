@@ -43,3 +43,7 @@ the-general-theory-of-relativity
 predictions-and-tests-of-general-relativity
 light-deflection-and-gravitational-lensing
 gravitational-waves
+an-expanding-universe
+einsteins-static-universe
+problems-with-a-static-universe
+friedmanns-expanding-universe

@@ -449,3 +449,70 @@ knitr::include_graphics("assets/images/gwave.gif")
 This loss of energy causes the stars to spiral in towards one another, which increase their orbital speed, and decreases their orbital period. In 1974, a spiraling binary pair consisting of two neutron stars was detected. Over the last few decades, the orbital period of the pair has changed in the precise way predicted by general relativity. 
 
 In September 2015, gravitational waves were directly detected using both of the `r colorize("Laser Interferometer Gravitational Wave Observatory (LIGO)", "#33CCFF")` detectors located in Livingston, Louisiana, and Hanford, Washington, USA. The LIGO detectors were able to measure the distortion of spacetime caused by gravitational waves that emanated from a coalescing pair of black holes. Scientists deduced that 29 and 36 Solar mass black holes collided to form a larger spinning black hole. The collision occurred about 1.3 billion years ago, lasted for a fraction of a second, and converted about 3 Solar masses of energy into gravitational wave radiation, some of which passed through the Earth. The spatial distortion caused by gravitational waves is almost imperceptibly small: each LIGO instrument has two arms that are about 4 km long, and changes in its length of about one ten thousandth the size of a proton are measurable. It is a huge experimental triumph to be able to measure such a minute change in the apparatus, and to be able to deduce so much about the nature of the system which generated the gravitational radiation.
+
+# An Expanding Universe 🌌
+
+## Einstein's Static Universe
+
+Shortly after completing the general theory of relativity, Einstein went on to apply his new theory to the universe as a whole !! The structure of the universe beyond our Milky Way galaxy was then completely unknown, thus Einstein made some assumptions.
+
+Einstein assumed that the universe is isotropic on average. (It looks more or less the same in all directions). We now know that if the distribution of galaxies is smoothed over distances of 300 million light years or so, it does appear to be homogeneous and isotropic.
+
+The universe cannot be homogeneous and isotropic unless space itself has these properties and thus, the curvature of space should be (on average) the same at all places and in all directions. **As discussed earlier there are only 3 types of such spaces: a flat Euclidean space, a closed spherical space, and an open hyperbolic space**.
+
+Einstein also assumed that the average characteristics of the universe, such as the average density of stars, do not change with time.
+
+But as it turns out the equations of General Relativity have no solutions with these properties. The problem is that masses distributed in the universe are pulled together by gravity and refuse to stay at rest. The theory was suggesting that the universe couldn't be static.
+
+Einstein said that the equations for General Relativity had to be modified to endow vacuum. As per these modified equations the energy density $\rho_{\nu}$ is constant everywhere (`r colorize("Einstein called it the cosomological constant", "#33CCFF")`). The vacuum pressure $P_{\nu}$ is related to the vacuum every density as:
+
+$$ P_{\nu} = \rho_{\nu} $$
+
+Negative pressure is commonly referred to as `r colorize("tension", "#33CCFF")`. So if the vacuum has tension why doesn't it suck everything in ? The Reason being in order to produce a force, we need a **difference** in pressure. The vacuum pressure is same everywhere and thus we should not expect any shrinkage (or expansion).
+
+The force of gravity in General Relativity depends both on the energy( or mass ) density. It is proportional to:
+
+$$ \rho + 3P $$
+
+For ordinary matter, pressure is negligible, so we are used to thinking about gravity as being dependent only on mass. However, for the vacuum, the pressure has the same magnitude as the energy density. Thus, we find that the gravitational force of the vacuum is proportional to:
+
+$$ \rho_{\nu} + 3P_{\nu} = -2 \rho_{\nu} $$
+Einstein realized that by adding a cosmological constant to his equations, he could balance the gravitational attraction of matter with the gravitational repulsion of the vacuum. All he needed was a matter density with $\rho_m = 2 \rho_{\nu}$, to balance the gravitational effect of vacuum. He thereby obtained a solution that describes a static universe. This solution has a closed, spherical geometry, with the radius determined by the matter density. For the density given by recent measurements, the corresponding circumference is about 100 billion light years.
+
+## Problems with a Static Universe
+
+Despite the appeal of a static universe, it turns out that Einstein's static cosmological model is not acceptable. To see why, let's think about what would happen if the radius of the universe were slightly decreased. Well the matter density $\rho_m$ would increase and $\rho_{\nu}$ by definition would remain constant. Thus, the balance is tipped and the Universe begins to contract and actually accelerates as the matter density is further decreased. 
+
+Similarly, one can easily deduce that if the radius of the universe were to increase, we'd have a expanding universe. 
+
+Small fluctuations in the radius of the universe cannot be avoided, and thus Einstein's universe cannot remain static for long.
+
+Another problem with the theory is that it conflicts with one of the most universal laws of nature - the second law of thermodynamics which states that an isolated physical system evolves from more ordered to more disordered states.
+
+A book sliding along the floor comes to a halt due to friction, and the energy of its directed, ordered motion turns into heat, i.e., into the energy of the disordered motion of molecules. The inverse process would be for the book to cool down and start moving along the floor.
+
+The universe can be regarded as an isolated system. Therefore, if it existed forever, thermal equilibrium would have been reached. The stars would have completely burnt out, cooling to the same temperature as interstellar space, and no life would be possible.
+
+## Friedmann's Expanding Universe
+
+The next breakthrough development in cosmology occurred in a rather unlikely place - the Soviet Petrograd, devastated by war and the Russian revolution. Once Alexander Friedmann studied the theory of General Relativity, he adopted Einstein's assumptions that the universe was homogeneous and isotropic and that it had a closed spherical geometry. But then he took a rather radical step: he did not require that the universe is static.
+
+With the requirement of a static universe lifted, Friedmann found that Einstein's equations did have a solution. The solution described a spherical universe with a time-varying radius and density. It starts with zero radius, expands, comes to a halt, and then contracts back to size zero. If you were an observer living in some galaxy in such a universe, then during the expansion phase, you would see all the other galaxies moving away from your galaxy, whilst during contraction all galaxies would approach you. 
+
+To understood how such a thing is possible consider the surface of a balloon, which is a good 2D analogy to a 3D closed spherical geometry. Imagine that small dots, representing galaxies, are painted on the balloon. As the balloon is inflated, all the dots move away from each other as their relative distances increase. Conversely, as the balloon is deflated, all the dots get closer to each other. It doesn't matter which dot we focus on, the view is the same. 
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/st-diag-expaning-universe.png")
+```
+
+The history of an evolving closed universe in this encapsulated in the above space-time diagram. Here, time runs from the bottom up and horizontal circles represent instantaneous snapshots of the universe. The initial and final moments were later named, as  `r colorize("the Big Bang", "#33CCFF")` and  `r colorize("the Big Crunch", "#33CCFF")`. At these moments, all matter is compressed into an infinitesimal volume, so the density is infinite. This makes Einstein's equations mathematically ill defined, so the spacetime cannot be extended beyond these points. Such points are called  `r colorize("spacetime singularities", "#33CCFF")`.
+
+According to Friedmann's solution, shortly after the big bang, the expansion of the universe is very fast. Then it slowed down by the gravitational attraction between galaxies, and eventually comes to a halt, followed by contraction. This is similar to the motion of a projectile launched vertically upwards. 
+
+Friedmann presented his solution in a paper that was published in 1922 in a German physics journal. Two years later, he published a follow-up paper describing an infinite (open) homogeneous and isotropic universe with hyperbolic geometry. Once again, he found that such a universe expands from a singularity of infinite matter density. The expansion slows down initially but it never stops completely, with galaxies approaching constant recession speeds at
+late times.
+
+
+The borderline case between open and closed solutions is a "flat" universe, having Euclidean geometry. Such a universe expands forever, but at ever decreasing speed, like a projectile launched at exactly the escape velocity. A 2D analogue for an expanding flat universe is a flat rubber sheet that is being uniformly stretched in both directions. The distances between all "galaxies" are then stretched by the same factor. The sheet can be arbitrarily large, and we can imagine it to be infinite. 
+
+The problem of Closed vs Open universe models was solved in 1929, when Edwin Hubble made what was arguably the most unexpected discovery in the history of science. As for Einstein, he reportedly quipped that adding the cosmological constant to his equation `r colorize("was the greatest blunder of my life", "#33CCFF")`. But even though the cosmological constant fell out of favor after the expansion of the universe was observed, it has since returned to the forefront of physics research.
