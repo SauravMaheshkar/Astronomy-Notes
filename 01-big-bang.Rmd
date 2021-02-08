@@ -516,3 +516,77 @@ late times.
 The borderline case between open and closed solutions is a "flat" universe, having Euclidean geometry. Such a universe expands forever, but at ever decreasing speed, like a projectile launched at exactly the escape velocity. A 2D analogue for an expanding flat universe is a flat rubber sheet that is being uniformly stretched in both directions. The distances between all "galaxies" are then stretched by the same factor. The sheet can be arbitrarily large, and we can imagine it to be infinite. 
 
 The problem of Closed vs Open universe models was solved in 1929, when Edwin Hubble made what was arguably the most unexpected discovery in the history of science. As for Einstein, he reportedly quipped that adding the cosmological constant to his equation `r colorize("was the greatest blunder of my life", "#33CCFF")`. But even though the cosmological constant fell out of favor after the expansion of the universe was observed, it has since returned to the forefront of physics research.
+
+# Observational Cosmology 🌌
+
+Giordano Bruno was burned at the stake for his heretical ideas in 1600. He believed that the stars like our Sun and appear to be dimmer only because of their great distance from us. 
+
+Now, Issac Newton thought that there was a distinction between the `r colorize("lucid matter", "#33CCFF")` of the stars and the `r colorize("opague nature", "#33CCFF")` of the Earth and the planets. In a letter to Richard Bently, where he discussed the creation of the Solar System amongst other things, Newton wrote:
+
+> "But how the matter should divide itself into two sorts, and that part of it which is to compose a shining body should fall down into one mass and make a sun and the rest which is to fit to compose an opaque body should coalesce, not into one great body, but into many little ones ...."
+
+Newton resorted to divine intervention to explain the separation of the Solar System into the sun and planets.
+
+But, spectroscopic experiments in the mid 1800s revealed that the Sun and the stars are actually made of the same chemical elements as the Earth and the planets. !!
+
+## Fingerprints of the Elements ☝️
+
+When a beam of white light is shone through a prism, it emerges on the other side having a continuum of colors. This `r colorize("continuum spectrum", "#33CCFF")` shows that white light is composed of many colors, ranging from red to violet. 
+
+Light emitted from a hot gas that is incident on a prism displays an `r colorize("emission line spectrum", "#33CCFF")` - a pattern of bright lines with particular wavelengths can be seen on a black background. Another interesting phenomenon occurs when a beam of white light is passed through cool gas before it gets to the prism. Te gas absorbs waves having some specific wavelengths, and a pat-
+tern of black lines, called `r colorize("absorption lines", "#33CCFF")`, appears in the spectrum. The pattern of both emission and absorption lines depends on the composition of the gas. Atoms of a given chemical element can emit and absorb light only at a particular set of wavelengths,so the emission or absorption line spectrum provides a unique “fingerprint ☝️” for each element.
+
+Light that emanates from the hot inner parts of a star has a continuum spectrum that develops absorption lines as it passes through the cooler stellar atmosphere. Astronomers measure the spectra of stars, and by comparing with the absorption lines of gases measured in the laboratory, they can identify whether elements such as hydrogen, helium, carbon, etc., are present in the star.
+
+## Measuring Velocities 💫
+
+For nearby stars, like Barnard’s star, we can directly calculate how fast the star is moving in a direction orthogonal to the line of sight. We do so by measuring the star’s displacement on photographic plates taken some time
+apart. However, more distant stars are so far away that it is impossible to detect their motion and measure their velocities using this method.
+
+Te observed wavelength (color) of light depends on the relative motion of the source and the observer. If a source of light is moving towards us, the observed wavelength gets shorter—that is, it shifts towards the blue end of the spectrum. Conversely, if a source is moving away from us, the observed wavelength will get longer, shifting towards the red end of the spectrum. We say the source is blue- or redshifted. This phenomenon, known as the `r colorize("Doppler effect", "#33CCFF")`, occurs for all kinds of waves, including sound waves and ripples on the surface of water.
+
+Quantitatively, the Doppler effect for light can be expressed by a simple formula:
+
+$$ \frac{\Delta\lambda}{\lambda} = \frac{v}{c} $$
+
+The redshift $z$ is defined as:
+
+$$ z = \frac{\Delta\lambda}{\lambda} $$
+
+For a moving star, the entire spectrum gets blue- or redshifted, including the black absorption lines. Astronomers identify line patterns of diferent elements and measure how much these patterns are shifted relative to a sample at rest in the laboratory.
+
+## Measuring Distances
+
+Te determination of distances to astronomical objects is notoriously difficult and has dominated much of twentieth century astronomy. Today astronomers use a variety of techniques to measure distances—each one is most useful within a given range. Distances to nearby stars can be found by measuring their parallax, which is the apparent movement of the star relative to the background sky as the Earth rotates around the Sun.
+
+Te parallax is used to define an astronomical unit of distance, called a parsec (pc). One parsec is the distance at which a star would have a parallax of 1′′;  it is equal to about 3.3 light years.
+
+While 100 light years seems like a large distance, our nearby neighbor, The Andromeda galaxy, is 2.5 million light years away. So parallax measurements can be seen as a first rung in what we call the cosmic distance ladder. Astronomers use a variety of so called standard candles to extend the reach of our distance measurements. Although none of them is perfect, they all work on the following premise:
+
+> if we know how intrinsically luminous a light source is, and we measure how bright it appears, we can figure out how far away it is. Te key relation is that the brightness of a light source decreases with the square of its distance,
+
+$$ b = \frac{L}{4\pi d^2} $$ 
+
+Today astronomers use extremely powerful stellar explosions, called `r colorize("supernovae", "#33CCFF")`, as standard candles. Although there are many kinds of supernovae, with differing properties, `r colorize("Type 1a supernovae", "#33CCFF")` have very uniform luminosities.
+
+The physics of Type 1a supernovae is not yet fully understood, but the most plausible cause is a thermonuclear explosion of a white dwarf star. There appear to be two mechanisms to trigger the explosion.
+
+1. If a white dwarf has a companion star, from which it can accrete material, it may gain so much mass that gravity overwhelms the pressure forces, and the white dwarf starts to collapse. This ignites a runaway thermonuclear reaction, and the white dwarf star is completely blown away.
+
+2. A Collision of two white dwarfs. When the two stars merge, their combined mass exceeds the stability threshold, and once again this leads to collapse. 
+
+By measuring the apparent brightness of such supernovae and knowing the luminosity, the distance to the host galaxy can be determined. These powerful beacons have allowed astronomers to chart the universe out to billions of light years.
+
+## The Birth of Extragalactic Astronomy
+
+By the turn of the 20th century, astronomers had identified some fuzzy extended objects outside our Solar System known as `r colorize("nebulae", "#33CCFF")`. There were two rival theories about the nature of nebulae:
+
+1. There was nothing but empty space beyond our galaxy. Nebulae were objects within the galaxy, probably sites of  star formation.
+
+2. Nebulae were "island universes" in their own right, similar to our Galaxy. 
+
+This contentious question resulted in “The Great
+Debate” between Harlow Shapley and Heber Curtis, held in 1920 at the Museum of Natural History in Washington. Although the debate ended inconclusively it was resolved in 1923, when Edwin Hubble established that the nebulae were other island universities, completely separate from our Galaxy.
+
+Hubble identified Cepheid variable stars in Andromeda and several other nebulae. Using Leavitt’s period-luminosity relation, he was then able to determine the distances to these nebulae. Today we know that Andromeda is about 2.5 million light years away—roughly 50 times the radius of the Milky Way. Hubble’s initial estimate of 1.5 million light years was significantly lower. However, it was still large enough to show that the nebulae must include billions of stars; and that they are indeed “island universes”
+similar to our own Galaxy. We now call them galaxies.
