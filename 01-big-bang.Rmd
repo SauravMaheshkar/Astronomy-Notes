@@ -590,3 +590,111 @@ Debate” between Harlow Shapley and Heber Curtis, held in 1920 at the Museum of
 
 Hubble identified Cepheid variable stars in Andromeda and several other nebulae. Using Leavitt’s period-luminosity relation, he was then able to determine the distances to these nebulae. Today we know that Andromeda is about 2.5 million light years away—roughly 50 times the radius of the Milky Way. Hubble’s initial estimate of 1.5 million light years was significantly lower. However, it was still large enough to show that the nebulae must include billions of stars; and that they are indeed “island universes”
 similar to our own Galaxy. We now call them galaxies.
+
+# Hubble's Law and the Expanding Universe 💫
+
+In the early 1900s, `r colorize("Vesto M. Slipher", "#33CCFF")` of the Lowell observatory in Arizona analyzed the spectra of many spiral nebulae. 
+
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/vm-slipher.png")
+```
+
+He found that most of them mysteriously had spectral lines that were red-shifted, indicating that they were moving away from the Earth, some at speeds of up to 1000 km/s. Motion at high speed is not uncommon in the cosmos—the Sun, for example, orbits around the center of our Galaxy at 300 km/s. The puzzling thing about Slipher’s result was that the nebulae conspired to move predominantly away from us, as if in a display of some cosmic rejection.
+
+Hubble set out to investigate Slipher’s curious findings.
+```{r, echo=FALSE, fig.align="center"}
+knitr::include_graphics("assets/images/edwin-hubble.png")
+```
+He started by measuring distances to an extended sample of nebulae, now recognized as galaxies. Unfortunately, Cepheids were too faint to be observed in all but the nearest galaxies, so Hubble had to find a new standard candle. He noticed that the brightest stars, in those galaxies whose distances he could measure (using Cepheids), had about the same luminosity, so he used them as standard candles, extending the cosmic distance ladder. In the meantime, Hubble’s assistant Milton Humason extended Slipher’s redshift measurements to a larger set of galaxies. Hubble then plotted the redshifts obtained by Slipher and Humason versus his distance estimates. He published his findings in 1929—and our view of the universe has never been the same.
+
+## An Expanding Universe 🤨
+
+Hubble uncovered a very simple relation between the speed at which a galaxy moves away from us and the distance to the galaxy: the speed grows proportionally to the distance (`r colorize("Hubble law", "#33CCFF")`).
+
+$$ \nu = H_{0}d $$
+
+where $\nu$ is the galaxy's velocity, and $d$ is it's distance. The constant $H_{0}$ is called the Hubble parameter; whose numerical value is:-
+
+$$ H_{0} = 2.2 \times 10^{-18} s^{-1} $$
+
+At first, it may appear that Hubble law implies that we are located right at the center of some ongoing gigantic explosion. But the work of Friedmann and Lemaitre demonstrated that cosmic expansion need not have a center. In a homogeneous and isotropic expanding universe, all observers see the surrounding galaxies recede.
+
+## Does the Universe have a Beginning ? 🧐
+
+The implications of Hubble’s discovery were truly mind-boggling. If the distances between galaxies are getting larger, they must have been smaller at earlier times. As we follow the motion of galaxies back in time, they get closer and closer together, until they all merge at some moment of time in the past. This seems to imply that the expansion of the universe must have had a beginning. Was that the beginning of our world?
+
+A cosmic beginning a finite time ago appeared to raise a host of perplexing problems. What actually happened at the beginning? And what caused it to happen? What determined the initial state of the universe? In the wake of Hubble’s discovery, no obvious answers presented themselves. But once these problems came into focus, much of the further progress in cosmology was driven by attempts to understand the early stages of the expansion, what caused the expansion to begin, and ultimately how—and whether—the universe came into being.
+
+## The Steady State Theory
+
+Most physicists hoped that Hubble’s discovery would somehow be explained without having to postulate that the universe had a beginning. Te most notorious attempt of this kind was the `r colorize("steady state theory", "#33CCFF")`, proposed in 1948 by Fred Hoyle, Hermann Bondi and Tomas Gold, all at Cambridge University. This theory was based on the so-called `r colorize("perfect cosmological principle", "#33CCFF")`, which asserts that the universe looks more or less the same at all times, at all places, and in all directions. An obvious implication is that the universe had no beginning in time. But how could this picture be reconciled with the fact that the universe was known to be expanding? Surely the distances between galaxies would grow and the average matter density would dilute?
+
+To compensate for the expansion, Hoyle, Bondi and Gold proposed that matter is continuously created out of the vacuum, so that the average matter density remains constant. Many physicists supported the steady state model on philosophical grounds. But ultimately, it was proven wrong. 
+
+The final demise of the steady state theory came with the discovery of the `r colorize("Cosmic Microwave Background (CMB)", "#33CCFF")` radiation in the mid-1960s. The detection of the CMB proved that the early universe was very hot, and the hot big bang model emerged as the standard cosmological paradigm. Cosmologists had to accept that dealing with the beginning of the universe was an unavoidable workplace hazard!
+
+## The Scale Factor
+
+As the universe expands, the distances between all galaxies are stretched by the same factor. Similarly, if we go back in time, all distances are contracted by the same factor. Te factor by which the distances change as we go from the present cosmic time $t_0$ to some future or past time t is called the `r colorize("scale factor", "#33CCFF")`; it is denoted by $a(t)$.
+
+If two galaxies are currently separated by a distance $d_0$ then their separation at any other time is 
+
+$$ d = a(t)d_0 $$
+
+At the present time $t_0$, the scale factor is conventionally defined to be $a(t_0) = 1$; at earlier times $a(t) < 1$, at later times $a(t) > 1$, and at the big bang $a(t=0)=0$. Te relative velocity of a pair of galaxies is given by the rate of change of their distance.
+
+$$ \nu = \dot{a}(t)d_0 $$
+
+Thus, the relative velocity of the galaxies depends on how fast the scale factor changes with time. The Hubble parameter can now be found from $H = v/d$,
+
+$$ H = \frac{\dot{a}(t)}{a(t)} $$
+
+Thus the Hubble parameter at any time is equal to the rate at which the scale factor is changing divided by the scale factor at that time. It is important to note that the Hubble parameter is constant in space, but it can change with time.
+
+## Cosmological Redshit 🔴
+
+We can now give an alternative interpretation, which is simpler: as the light waves travel to us, their wave- length is stretched by cosmic expansion.
+
+When light leaves a distant galaxy at some time t, it starts of with a certain wavelength $\lambda$. By the time it reaches us, the universe has increased in size by the factor $1/a(t)$, and the wavelength of light is stretched by the same factor. Then, the resulting wavelength is given by:
+
+$$ \frac{\lambda_0}{\lambda} = \frac{1}{a(t)}$$
+
+The cosmological redshift $z$ is defined as the fractional change in the wavelength,
+
+$$ z = \frac{\lambda_0 - \lambda}{\lambda} $$
+
+Thus, we can obtain a relation between redshift and scale factor
+
+$$ z + 1 = \frac{\lambda_0}{\lambda} = \frac{1}{a(t)} $$
+
+## How Old is the Universe ? 🧓🏻
+
+If the universe began a finite time ago, then how old is it? To find out, we can follow the motion of galaxies back in time and evaluate how long it takes until they merge at the big bang. For a rough estimate, we shall first neglect the effect of gravity. Under this condition, any given pair of galaxies moves at a constant relative speed.
+
+$$ t_0 = d/v = d/H_0d = 1/H_0 \approx 14.4 \times 10^9 yrs. $$
+
+Cosmologists call $1/H_0$ the `r colorize("Hubble Time", "#33CCFF")`. 
+
+We can improve this estimate, by taking into account that the universe actually has a time-varying expansion rate. Early in its history the universe decelerated due to gravity, while later on it began a period of accelerated expansion.
+
+## The Hubble Distance and the Cosmic Horizon
+
+Hubble’s law tells us that the velocities of galaxies grow in proportion to their distance. It follows that the velocities can get arbitrarily large for galaxies sufficiently far away. This may sound alarming, since motion faster than light appears to contradict special relativity. But in fact there is no contradiction. It is important to realize that the expansion of the universe is an expansion of space, not an expansion of galaxies into some pre-existing space. The theory of relativity requires that objects cannot move past one another faster than the speed of light, but there is no limit to how fast the space between objects can expand. Te distance beyond which galaxies recede faster than the speed of light is called the `r colorize("Hubble distance", "#33CCFF")`.
+
+$$ d_H = \frac{c}{H_0} = 14.4 \times 10^9 \, ly $$
+
+Another important distance scale is set by our cosmic horizon. In a universe of a finite age, there is a limit to how far we can see into space. Te distance that light has traveled since the big bang is finite, and light sources that are too far away cannot be seen, simply because their light has not yet reached the Earth. We can imagine ourselves at the center of a gigantic sphere—the observable part of the universe. Te boundary of this sphere is called the particle horizon; its radius $d_{hor}$ is the distance to the most remote objects (“particles”) that we can possibly observe.
+
+In an expanding universe a given source moves away from us while its light travels towards the Earth. Thus, by the time we detect the source, it is at a greater distance than when its light was emitted. For the most remote observable sources, the emission time is close to the big bang. The source was then much closer to us than it is now, and its present distance depends on the entire expansion history of the universe from the big bang to the present time.
+
+Calculations based on our current understanding of this history give the horizon distance
+
+$$ d_{hor} = 46 \times 10^9 \, ly $$
+
+## Not Everything is Expanding ✋🏻
+
+Objects that are bound together by forces, like atoms, planets, stars, galaxies, and even groups of galaxies, are not undergoing Hubble expansion.
+
+we can imagine some objects in an expanding universe which are fixed in space, while the space itself is being stretched by cosmic expansion. We shall refer to such objects as `r colorize("comoving", "#33CCFF")`. Galaxies are comoving, but only approximately: in addition to Hubble expansion, they move under the action of gravitational forces.
+
+Our Milky Way and Andromeda are falling toward one another and will collide in about 4 billion years. However, on the largest scales, when we ignore hese relatively “local” motions, all matter obeys Hubble’s Law.
